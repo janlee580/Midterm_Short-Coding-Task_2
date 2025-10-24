@@ -1,16 +1,30 @@
-# midterm_req_2
+# Part C: Short Coding Task — Counter App (+5 Increment)
 
-A new Flutter project.
+## Introduction
 
-## Getting Started
+This Flutter application demonstrates the use of a **button with state management**.  
+When the button is pressed, the counter value increases by **5** instead of the default increment of 1.  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## How the App Works
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### **Single Screen Counter App**
+- The app starts with the `main()` function that runs the `MyApp` widget.
+- `MyApp` sets up a `MaterialApp` and defines the home screen as `MyHomePage`.
+- Inside `MyHomePage`, a counter variable `_counter` is initialized to `0`.
+- A method `_incrementCounter()` is defined to increase the counter by **5** each time it is called:
+  ```dart
+  void _incrementCounter() {
+    setState(() {
+      _counter = _counter + 5;
+    });
+  }
+- The FloatingActionButton triggers this function when pressed, updating the displayed value.
+- The counter value and label text are centered on the screen using a Column widget.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+**Developed by:** Janlee Estoy
+**Course:** Computer Engineering
+**Part B:** Short Coding Task — Counter App (+5 Increment)
