@@ -25,6 +25,6 @@ When the button is pressed, the counter value increases by **5** instead of the 
 
 ---
 
-**Developed by:** Janlee Estoy
-**Course:** Computer Engineering
-**Part B:** Short Coding Task — Counter App (+5 Increment)
+- **Developed by:** Janlee Estoy
+- **Course:** Computer Engineering
+- **Part B:** Short Coding Task — Counter App (+5 Increment)
